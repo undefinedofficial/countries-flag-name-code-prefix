@@ -1,0 +1,27 @@
+{
+  "name": "countries-flag-name-code-prefix",
+  "version": "1.0.0",
+  "description": "List of all countries with names, code, emoji and ISO 3166-1 codes in all languages in JSON.",
+  "exports": {
+    "./*": "./dist"
+  },
+  "main": "dist",
+  "type": "module",
+  "scripts": {
+    "build": "node ./bin/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undefinedofficial/countries-flag-name-code-prefix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/undefinedofficial/countries-flag-name-code-prefix/issues"
+  },
+  "keywords": [
+    "countries",
+    "ISO 3166-1",
+    "JSON"
+  ],
+  "homepage": "https://github.com/undefinedofficial/countries-flag-name-code-prefix#readme",
+  "author": "undefinedofficial"
+}
